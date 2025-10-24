@@ -1,0 +1,149 @@
+/*
+    Qualidade do Código:
+    - Uso de seletores simples e claros.
+    - Comentários para organização.
+    - Indentação correta.
+*/
+
+/* 1. Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #c0c0c0; /* Fundo suave */
+    color: #333;
+}
+
+/* 2. Estilo do Cabeçalho (Perfil) */
+.perfil {
+    background-color: #550947; 
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Torna a foto redonda */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.perfil h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.perfil p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.links-sociais a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links-sociais a:hover {
+    color: #000000; /* preto ao passar o mouse */
+}
+
+
+/* 3. Estilo do Conteúdo Principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.secao {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.secao h2 {
+    color: #550947;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* 4. Estilos Específicos das Seções */
+
+/* Experiência e Formação */
+.item-experiencia, .item-formacao, .item-projeto {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 4px solid #550960;
+}
+
+.item-experiencia h3, .item-formacao h3, .item-projeto h3 {
+    margin-bottom: 5px;
+    font-size: 1.3em;
+}
+
+.instituicao-data {
+    font-style: italic;
+    color: #454545;
+    margin-bottom: 10px;
+}
+
+.item-experiencia ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+/* Habilidades */
+.lista-habilidades {
+    list-style-type: none; /* Remove os marcadores padrão */
+    display: flex; /* Transforma a lista em linha */
+    flex-wrap: wrap; /* Quebra a linha se não houver espaço */
+    gap: 10px; /* Espaço entre os itens */
+}
+
+.lista-habilidades li {
+    background-color: #e9ecef;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* certificados */
+.item-certificados a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #550947;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.item-certificados a:hover {
+    text-decoration: underline;
+}
+
+/* 5. Estilo do Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
