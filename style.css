@@ -1,25 +1,16 @@
-/*
-    Qualidade do Código:
-    - Uso de seletores simples e claros.
-    - Comentários para organização.
-    - Indentação correta.
-*/
-
-/* 1. Reset Básico */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+    box-sizing: border-box; 
 }
 
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #c0c0c0; /* Fundo suave */
+    background-color: #c0c0c0; 
     color: #333;
 }
 
-/* 2. Estilo do Cabeçalho (Perfil) */
 .perfil {
     background-color: #550947; 
     color: white;
@@ -31,8 +22,8 @@ body {
 .foto-perfil {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Torna a foto redonda */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 50%; 
+    object-fit: cover; 
     border: 5px solid white;
     margin-bottom: 15px;
 }
@@ -49,18 +40,17 @@ body {
 
 .links-sociais a {
     color: white;
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none; 
     margin: 0 10px;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .links-sociais a:hover {
-    color: #000000; /* preto ao passar o mouse */
+    color: #000000; 
 }
 
 
-/* 3. Estilo do Conteúdo Principal */
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -83,9 +73,6 @@ body {
     font-size: 1.8em;
 }
 
-/* 4. Estilos Específicos das Seções */
-
-/* Experiência e Formação */
 .item-experiencia, .item-formacao, .item-projeto {
     margin-bottom: 25px;
     padding: 15px;
@@ -109,12 +96,11 @@ body {
     padding-left: 10px;
 }
 
-/* Habilidades */
 .lista-habilidades {
-    list-style-type: none; /* Remove os marcadores padrão */
-    display: flex; /* Transforma a lista em linha */
-    flex-wrap: wrap; /* Quebra a linha se não houver espaço */
-    gap: 10px; /* Espaço entre os itens */
+    list-style-type: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
 }
 
 .lista-habilidades li {
@@ -125,7 +111,6 @@ body {
     color: #333;
 }
 
-/* certificados */
 .item-certificados a {
     display: inline-block;
     margin-top: 10px;
@@ -138,7 +123,6 @@ body {
     text-decoration: underline;
 }
 
-/* 5. Estilo do Rodapé */
 footer {
     text-align: center;
     padding: 20px;
